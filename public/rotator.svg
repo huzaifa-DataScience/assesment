@@ -1,0 +1,26 @@
+<svg id="Design" xmlns="http://www.w3.org/2000/svg" width="897.59" height="794.5" viewBox="0 0 897.59 794.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #06538f;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #057ec6;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_2_copy_3" data-name="Rounded Rectangle 2 copy 3" class="cls-1" d="M971.781,802.422L1547.71,429.877a5.719,5.719,0,0,1,6.22,9.6L977.991,812.019A5.715,5.715,0,1,1,971.781,802.422Z" transform="translate(-944 -175.312)"/>
+  <path id="Rounded_Rectangle_2_copy_3-2" data-name="Rounded Rectangle 2 copy 3" class="cls-1" d="M1014.62,800.237l575.94-372.544a5.715,5.715,0,0,1,6.21,9.6L1020.83,809.835A5.716,5.716,0,0,1,1014.62,800.237Z" transform="translate(-944 -175.312)"/>
+  <path id="Rounded_Rectangle_2_copy_3-3" data-name="Rounded Rectangle 2 copy 3" class="cls-1" d="M1009.78,831.6l575.94-372.544a5.715,5.715,0,0,1,6.21,9.6L1015.99,841.2A5.716,5.716,0,0,1,1009.78,831.6Z" transform="translate(-944 -175.312)"/>
+  <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" d="M1084.21,836.9h0c-183.955-179.889-187.354-474.683-7.6-658.44L1742.76,829.9C1563,1013.65,1268.16,1016.79,1084.21,836.9Z" transform="translate(-944 -175.312)"/>
+  <path id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" class="cls-2" d="M1101.42,812.451h0c-172.452-168.577-175.639-444.832-7.12-617.033l624.51,610.47C1550.29,978.089,1273.87,981.027,1101.42,812.451Z" transform="translate(-944 -175.312)"/>
+  <circle class="cls-3" cx="774.03" cy="89.469" r="68.59"/>
+  <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-1" d="M1214.01,550.945L1789.94,178.4a5.715,5.715,0,1,1,6.21,9.6L1220.22,560.543A5.716,5.716,0,1,1,1214.01,550.945Z" transform="translate(-944 -175.312)"/>
+  <path id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-1" d="M1256.85,548.761l575.93-372.545a5.716,5.716,0,1,1,6.21,9.6L1263.06,558.358A5.715,5.715,0,1,1,1256.85,548.761Z" transform="translate(-944 -175.312)"/>
+  <path id="Rounded_Rectangle_2_copy_2" data-name="Rounded Rectangle 2 copy 2" class="cls-1" d="M1252.01,580.127l575.94-372.545a5.716,5.716,0,0,1,6.21,9.6L1258.22,589.724A5.715,5.715,0,0,1,1252.01,580.127Z" transform="translate(-944 -175.312)"/>
+</svg>
