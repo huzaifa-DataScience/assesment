@@ -73,7 +73,7 @@ const Home = () => {
           <div 
             role="button"  // Ensure the button has a role
             onClick={handleUpButtonClick}
-            className="absolute bottom-10 right-10 z-10 bg-[#580052] p-4 rounded-lg shadow-lg text-white cursor-pointer flex items-center justify-center animate-bounce"
+            className="absolute bottom-4 right-10 z-10 bg-[#580052] p-4 rounded-lg shadow-lg text-white cursor-pointer flex items-center justify-center animate-bounce"
           >
             <ArrowUpIcon className="w-6 h-6" />
           </div>
