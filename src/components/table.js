@@ -55,17 +55,17 @@ const endDate = new Date('2024-12-31');
 
 
   return (
-    <TableContainer component={Paper} className="bg-[#43005c]">
+    <TableContainer component={Paper} className="bg-[#580052]">
     <Table className="min-w-full text-white " aria-label="simple table">
       <TableHead>
         <TableRow className="bg-gray-100 ">
-          <TableCell className=' bg-[#43005c]'><span className='text-white font-bold text-[20px]'>Event Name</span></TableCell>
-          <TableCell align="right" className=' bg-[#43005c]'><span className='text-white font-bold text-[20px]'>Place</span></TableCell>
-          <TableCell align="right" className=' bg-[#43005c]'><span className='text-white font-bold text-[20px]'>Date&nbsp;</span></TableCell>
-          <TableCell align="right" className=' bg-[#43005c]'>&nbsp;</TableCell>
+          <TableCell className=' bg-[#580052]'><span className='text-white font-bold text-[20px]'>Event Name</span></TableCell>
+          <TableCell align="right" className=' bg-[#580052]'><span className='text-white font-bold text-[20px]'>Place</span></TableCell>
+          <TableCell align="right" className=' bg-[#580052]'><span className='text-white font-bold text-[20px]'>Date&nbsp;</span></TableCell>
+          <TableCell align="right" className=' bg-[#580052]'>&nbsp;</TableCell>
         </TableRow>
       </TableHead>
-      <TableBody className='bg-[#43005c]'>
+      <TableBody className='bg-[#580052]'>
         {eventList.map((row) => (
           <TableRow
             key={row.name}

@@ -21,9 +21,9 @@ const RegistrationForm = () => {
   };
 
   return (
-    <Container maxWidth="md" className="flex justify-center items-center rounded-2xl bg-[#43005c] p-8">
+    <Container maxWidth="md" className="flex justify-center items-center rounded-2xl bg-[#580052] p-8">
       <Paper className="w-full max-w-lg p-8 bg-white rounded-2xl shadow-lg">
-        <Typography variant="h4" component="h1" className="text-[#43005c] mb-6 ">
+        <Typography variant="h4" component="h1" className="text-[#580052] mb-6 ">
           Register
         </Typography>
         <Formik
