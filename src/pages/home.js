@@ -16,7 +16,7 @@ const Home = () => {
     const fadeOutTimer = setTimeout(() => {
       setShowTable(false);
       setIsSlidUp(false);
-    }, 500); // 
+    }, 500); 
     return () => clearTimeout(fadeOutTimer);
   };
 
@@ -24,8 +24,7 @@ const Home = () => {
     if (isSlidUp) {
       const timer = setTimeout(() => {
         setShowTable(true);
-      }, 500); // Adjusted time to match the animation
-
+      }, 500); 
       return () => clearTimeout(timer);
     }
   }, [isSlidUp]);
@@ -54,11 +53,11 @@ const Home = () => {
          
           <div className='absolute top-[280px] left-[50px] lg:left-[180px] z-20 font-bold flex flex-col items-start lg:items-start text-center lg:text-left'>
             <p className="text-[#ff4f73] text-5xl md:text-[100px] lg:text-[150px] sm:text-[80px] animate-slideInLeft shadow-custom">
-              CHOOSE
+              EVENTS
             </p>
 
             <span className="text-white text-[20px] lg:text-[50px] md:text-[50px] sm:text-[40px] animate-fadeUp shadow-custom-heavy">
-              YOUR EVENT
+              HAPPENING AROUND YOU
             </span>
             <p className='mt-[100px] text-white text-sm lg:text-xl md:text-sm sm:text-sm animate-fadeIn font-light space-x-3.5 space-y-4 max-w-xs lg:max-w-md'>
               Discover a curated selection of the most exciting and engaging events happening in your area. From exclusive shows to unmissable gatherings, we bring you a comprehensive list of events tailored to your interests.
@@ -72,6 +71,7 @@ const Home = () => {
       {showTable && (
         <div>
           <div 
+            role="button"  // Ensure the button has a role
             onClick={handleUpButtonClick}
             className="absolute bottom-10 right-10 z-10 bg-[#580052] p-4 rounded-lg shadow-lg text-white cursor-pointer flex items-center justify-center animate-bounce"
           >

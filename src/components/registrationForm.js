@@ -17,7 +17,7 @@ const RegistrationForm = () => {
 
   const handleSubmit = (values) => {
     console.log('Form submitted', values);
-    navigate('/thankyou'); // Navigate to a thank you page or another route after registration
+    navigate('/thankyou'); 
   };
 
   return (
