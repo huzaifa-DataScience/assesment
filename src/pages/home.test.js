@@ -21,7 +21,7 @@ describe('Home Component', () => {
     
     await act(async () => {
       fireEvent.click(image);
-      await new Promise((r) => setTimeout(r, 1600)); // Ensure the timeout is longer than the animation duration
+      await new Promise((r) => setTimeout(r, 1600)); 
     });
     
     expect(screen.getByTestId('beautiful-table')).toBeInTheDocument();
@@ -34,7 +34,7 @@ describe('Home Component', () => {
     
     await act(async () => {
       fireEvent.click(image);
-      await new Promise((r) => setTimeout(r, 1600)); // Ensure the timeout is longer than the animation duration
+      await new Promise((r) => setTimeout(r, 1600));
     });
 
     const table = screen.getByTestId('beautiful-table');
@@ -48,14 +48,14 @@ describe('Home Component', () => {
     
     await act(async () => {
       fireEvent.click(image);
-      await new Promise((r) => setTimeout(r, 1600)); // Ensure the timeout is longer than the animation duration
+      await new Promise((r) => setTimeout(r, 1600)); 
     });
 
     const upButton = screen.getByRole('button', { hidden: true });
     
     await act(async () => {
       fireEvent.click(upButton);
-      await new Promise((r) => setTimeout(r, 1600)); // Ensure the timeout is longer than the animation duration
+      await new Promise((r) => setTimeout(r, 1600)); 
     });
 
     expect(screen.queryByTestId('beautiful-table')).toBeNull();

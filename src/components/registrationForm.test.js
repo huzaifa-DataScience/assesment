@@ -56,22 +56,4 @@ describe('RegistrationForm', () => {
     expect(await screen.findByText(/phone number must be 10 digits/i)).toBeInTheDocument();
   });
 
-  // test('submits the form with valid data and navigates to thank you page', async () => {
-  //   const mockNavigate = jest.fn();
-  //   jest.mock('react-router-dom', () => ({
-  //     ...jest.requireActual('react-router-dom'),
-  //     useNavigate: () => mockNavigate,
-  //   }));
-
-  //   setup();
-
-  //   await act(async () => {
-  //     userEvent.type(screen.getByLabelText(/username/i), 'testuser');
-  //     userEvent.type(screen.getByLabelText(/email/i), 'testuser@example.com');
-  //     userEvent.type(screen.getByLabelText(/phone number/i), '1234567890');
-  //     fireEvent.click(screen.getByRole('button', { name: /register/i }));
-  //   });
-
-  //   expect(mockNavigate).toHaveBeenCalledWith('/thankyou');
-  // });
 });
