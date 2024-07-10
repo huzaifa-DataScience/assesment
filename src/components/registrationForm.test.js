@@ -3,7 +3,7 @@ import { render, screen, fireEvent, act } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { BrowserRouter } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
-import RegistrationForm from './RegistrationForm';
+import RegistrationForm from './registrationForm';
 
 describe('RegistrationForm', () => {
   const setup = () => {
