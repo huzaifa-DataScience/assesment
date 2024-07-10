@@ -15,7 +15,9 @@ run test using npm test
 I choose Tailwind css instead of boostrap or vanilla css because it's more advance ,quick and easy to use. But for reason i used vanilla css aswell in few places
 
 
+https://assesment-vd1c.vercel.app/
 
+here is the live working site you can check! 
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
